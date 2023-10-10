@@ -22,7 +22,7 @@ function displayCharacterDetails(character) {
   detailedInfo.innerHTML = `
     <h2>${character.name}</h2>
     <img src="${character.image}" width="300" height="300"alt="${character.name}" />
-    <p>Votes: ${character.votes}</p>
+    <h3>Total Votes: ${character.votes}</h3>
     <form id="votes-form">
       <label for="votes-input"></label>
       <input type="number" id="votes-input" name="votes" required />
