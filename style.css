@@ -42,6 +42,14 @@ html, body {
   text-align: center;
 }
 
+#character-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 input[type="submit"], button {
   background-color: rgb(49, 109, 179);
   color: white;
